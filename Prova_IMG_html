@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<title>Le Vie della Seta</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="Prova_IMG.css">
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div id="fullpage">
+		<header role="banner">
+			<h1>Le Vie della Seta</h1>
+			<nav role="navigation">
+				<ul id="ulBanner"
+					<li><a href=""class="listaBianca">Home</a></li>
+					<li><a href="#about" class="listaBianca">La storia</a></li>
+					<li><a href="#links" class="listaBianca">I protagonisti</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<article id="about">
+			<h2>Le Vie della Seta</h2>
+			<p>Per via della seta (in cinese: 絲綢之路T, 丝绸之路S, sī chóu zhī lùP; persiano: راه ابریشم‎, Râh-e Abrisham) s'intende il reticolo, che si sviluppava per circa 8.000 km, costituito da itinerari terrestri, marittimi e fluviali lungo i quali nell'antichità si erano snodati i commerci tra l'impero cinese e quello romano. Le vie carovaniere attraversavano l'Asia centrale e il Medio Oriente, collegando Chang’an (oggi Xi'an), in Cina, all’Asia Minore e al Mediterraneo attraverso il Medio Oriente e il Vicino Oriente. Le diramazioni si estendevano poi a est alla Corea e al Giappone e, a Sud, all’India. Il nome apparve per la prima volta nel 1877, quando il geografo tedesco Ferdinand von Richthofen (1833-1905) pubblicò l'opera Tagebucher aus China. Nell'Introduzione von Richthofen nomina la Seidenstraße, la «Via della seta».</p>
+			<a href="https://upload.wikimedia.org/wikipedia/commons/e/ed/Transasia_trade_routes_1stC_CE_gr2.png"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Transasia_trade_routes_1stC_CE_gr2.png" alt="Leonardo Dal Zovo in una foto d'epoca"></a>
+			<h2>Dall'antica Cina all'antica Roma</h2>
+			<p>La destinazione finale della seta che su di essa viaggiava (non certo da sola ma insieme a tante altre merci preziose) era Roma, dove per altro non si sapeva con precisione quale ne fosse l’origine (se animale o vegetale) e da dove provenisse. Altre merci altrettanto preziose viaggiavano in senso inverso, e insieme alle merci viaggiavano grandi idee e religioni (concetti fondamentali di Matematica, Geometria, Astronomia) in entrambi i sensi, Manicheismo, e Nestorianesimo verso Oriente. Sulla Via della seta compì un complesso giro quasi in tondo anche il Buddhismo, dall’India all’Asia Centrale alla Cina e infine al Tibet (il tutto per trovare itinerari che permettessero di evitare le quasi invalicabili montagne dell’Himalaya).
+
+Questi scambi commerciali e culturali furono determinanti per lo sviluppo e il fiorire delle antiche civiltà dell'Egitto, della Cina, dell'India e di Roma, ma furono di grande importanza anche nel gettare le basi del mondo moderno.</p>
+		</article>
+		
+		<aside role="complementary" id="links">
+			<h2>Link utili</h2>
+			<ul>
+				<li><a href="https://it.wikipedia.org/wiki/Via_della_seta">Bibliografia</a></li>
+				<li><a href="https://it.wikipedia.org/wiki/Via_della_seta">Strumenti</a></li>
+			</ul>
+		</aside>
+		
+		<footer role="contentinfo">
+			<p>&copy; 2015 Kublai Khan</p>
+		</footer>
+	</div>
+</body>
+</html>
