@@ -1,0 +1,106 @@
+#fullpage {
+   max-width: 63em;
+   margin: auto;
+}
+
+*, *:before, *:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+a {
+	text-decoration: none; 
+}
+a:hover
+{
+    text-decoration: underline;
+    color: #0080FF;
+}
+
+h1 {
+   font-size: 2em;
+   color: white;
+}
+h2 {
+   font-size: 1.5em;
+}
+h1, h2 {
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   margin: 5px 0;
+}
+p {
+   font-family: Georgia;
+   font-size: 1.1em;
+   margin: 5px 0;
+}
+ul {
+   padding-left: 10px;
+   margin: 10px 0;
+   list-styletype:disc;
+}
+li {
+   font-family: "Trebuchet MS";
+   margin-left: 10px;
+   padding-left: 10px;
+}
+#ulBanner {
+	color: white;
+}
+
+.listaBianca {
+	color: white;
+}
+
+img {
+   max-width: 100%;
+}
+
+header, article, aside, footer {
+   padding: 10px 1em;
+   margin: 0 5% 10px;
+}
+
+article, aside, footer {
+   border: 1px solid #111;
+}
+
+header {
+   background-image: -moz-linear-gradient(top right, #FFFFFF 0%, #AACFEF 100%);
+   background-image: linear-gradient(to top left, #FFFFFF 0%, #DF15AA 50%, #AACFEF 100%);
+   border: 6px solid #111;
+   margin-top: 10px;
+   /*box-shadow: 3px 3px 5px 6px #ccc;*/
+
+}
+
+article img {
+	float: right;
+	padding-left: 3%;
+	padding-bottom: 10px;
+	width: 37%;
+}
+
+@media only screen and (min-width: 36em) {
+   article {
+      width: 67%;
+      float: left;
+      margin-right: 0;
+   }
+   aside {
+      width: 21%;
+      float: right;
+      margin-left: 0;
+   }
+   footer {
+      clear: both;
+   }
+}
+
+@media only screen and (max-width: 24em) {
+   article img{
+	   width: auto;
+	   float: none;
+	   padding-left: 0;
+   }
+}
