@@ -69,7 +69,6 @@ article, aside, footer {
 }
 
 header {
-   background-image: -moz-linear-gradient(top right, #FFFFFF 0%, #AACFEF 100%);
    background-image: linear-gradient(to top left, #FFFFFF 0%, #DF15AA 50%, #AACFEF 100%);
    border: 6px solid #111;
    margin-top: 10px;
